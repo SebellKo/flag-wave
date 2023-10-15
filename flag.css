@@ -1,0 +1,155 @@
+body
+{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin: 50px auto; */
+    background-color: white;
+}
+.wrapper
+{
+    margin: 25px auto;
+    /* width: 1200px;
+    height: 800px; */
+    position: relative;
+    /* left: 150px; */
+    /* perspective: 800px; */
+    /* perspective: 800px; */
+    
+}
+
+.first_line
+{
+    position: absolute;
+    left: 100px;
+    /* width: 1200px;
+    height: 300px; */
+}
+
+.second_line
+{
+    position: absolute;
+    /* width: 1000px;
+    height: 300px; */
+    left: 100px;
+    top: 250px;
+}
+
+.third_line
+{
+    position: absolute;
+    /* width: 1000px;
+    height: 300px; */
+    left: 100px;
+    top: 500px;
+    
+}
+
+.col
+{
+    width: 225px;
+    height: 150px;
+    margin: 50px 50px;
+    float: left;
+    transform: perspective(300px) rotateY(-20deg);
+}
+
+.square
+{
+    width: 15px;
+    height: 150px;
+    background-color: rgb(14, 27, 145);
+    animation: spin 5s linear infinite;
+    float: left;
+    /* margin: -2px; */
+}
+
+@keyframes spin
+{
+    0% {transform: scale(1.2);}
+    50% {transform: scale(0.6);}
+    100% {transform: scale(1.2);}
+}
+
+.col>.square:nth-child(1)
+{
+    animation-delay: 100ms;
+}
+.col>.square:nth-child(2)
+{
+    animation-delay: 200ms;
+}
+.col>.square:nth-child(3)
+{
+    animation-delay: 300ms;
+}
+.col>.square:nth-child(4)
+{
+    animation-delay: 400ms;
+}
+.col>.square:nth-child(5)
+{
+    animation-delay: 500ms;
+}
+.col>.square:nth-child(6)
+{
+    animation-delay: 600ms;
+}
+.col>.square:nth-child(7)
+{
+    animation-delay: 700ms;
+}
+.col>.square:nth-child(8)
+{
+    animation-delay: 800ms;
+}
+.col>.square:nth-child(9)
+{
+    animation-delay: 900ms;
+}
+.col>.square:nth-child(10)
+{
+    animation-delay: 1000ms;
+}
+.col>.square:nth-child(11)
+{
+    animation-delay: 1100ms;
+}
+.col>.square:nth-child(12)
+{
+    animation-delay: 1200ms;
+}
+.col>.square:nth-child(13)
+{
+    animation-delay: 1300ms;
+}
+.col>.square:nth-child(14)
+{
+    animation-delay: 1400ms;
+}
+.col>.square:nth-child(15)
+{
+    animation-delay: 1500ms;
+}
+.col>.square:nth-child(16)
+{
+    animation-delay: 1600ms;
+}
+.col>.square:nth-child(17)
+{
+    animation-delay: 1700ms;
+}
+.col>.square:nth-child(18)
+{
+    animation-delay: 1800ms;
+}
+.col>.square:nth-child(19)
+{
+    animation-delay: 1900ms;
+}
+.col>.square:nth-child(20)
+{
+    animation-delay: 2000ms;
+}
+
+
